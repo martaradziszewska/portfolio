@@ -1,0 +1,28 @@
+.gallery {
+    padding: 0 10vw;
+    margin: 0 auto;
+    position: relative;
+    .section-title {
+        font-size: 36px;
+        position: absolute;
+        left: 50%;
+        top: -22px;
+        transform: translateX(-50%);
+    }
+}
+
+
+.tags {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+    li {
+        border: 1px solid $color-navy;
+        // background: $color-navy;
+        // color: white;
+        padding: 0.4rem;
+        margin: 0.2rem 0.2rem;
+    }
+    
+}
